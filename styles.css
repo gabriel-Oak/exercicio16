@@ -1,0 +1,44 @@
+*{border: none; margin: none; padding: none; top: 0; left: 0;}
+
+.white{ background-color: white;}
+.black{ background-color: black;}
+
+table{border: none; margin: 0 auto 0 auto; position: relative;}
+
+
+
+@media screen and (max-width: 479px){
+    table{top: 2.5vh;}
+    td{
+        width: 30vw;
+        height: 30vw;
+        
+    }
+}
+
+@media screen and (min-width: 480px) and (max-width: 799px){
+    table{top: 2.5vh;}
+    td{
+        width: 30vw;
+        height: 30vw;
+        
+    }
+}
+
+@media screen and (min-width: 800px) and (max-width: 1199px){
+    table{top: 2.5vh;}
+    td{
+        width: 30vh;
+        height: 30vh;
+        
+    }
+}
+
+@media screen and (min-width: 1200px){
+    table{top: 2.5vh;}
+    td{
+        width: 30vh;
+        height: 30vh;
+        
+    }
+}
